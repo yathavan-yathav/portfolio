@@ -1,0 +1,52 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e9eef175;
+    color: #0b2191;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    background-origin: padding-box;
+    background-color: #005b89;
+}
+
+nav ul {
+    list-style: upper-latin;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #005b89;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
